@@ -1,0 +1,66 @@
+.contenedorPesos{
+    width: 50%;
+    height: 100%;
+    background-color: #012340;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 35px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+.contenedorTxts{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.txts{
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.txtsTotal{
+    width: 420px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inputPeso{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.inputcambio{
+    width: 420px;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 15px;
+}
+.btncambio{
+    height: 25px;
+    width: 80px;
+    background-color: white;
+    color: #012340;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
+}
+.totalCambio{
+    height: 25px;
+    padding-top: 20px;
+    width: 420px;
+    border-radius: 25px;
+    color: white;
+}
+.parrafo{
+    width: 420px;
+}

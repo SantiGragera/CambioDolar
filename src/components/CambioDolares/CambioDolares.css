@@ -1,0 +1,50 @@
+.todoDolares{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace;
+}
+.inputDls{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.inputlit{
+    width: 380px;
+    height: 25px;
+    border: 1px solid #012340;
+    border-radius: 25px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 15px;
+}
+.btnDls{
+    height: 25px;
+    width: 80px;
+    background-color: #012340;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
+}
+.container_dls{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: #012340;
+    gap: 15px;
+    padding: 20px;
+    margin-top: 55px;
+}
+.txtsDls{
+    color: white;
+    width: 380px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,14 @@
+.main_todo{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    background-color: white;
+    height: 600px;
+    width: 1000px;
+    border-radius: 35px;
+    box-shadow: 0 0 8px;
+}
