@@ -48,3 +48,34 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 1000px){
+    .todoDolares{
+        width: 100%;
+        height: 50%;
+    }
+}
+@media (max-width: 530px){
+    .container_dls{
+        width: 80%;
+        height: 35%;
+    }
+    .inputlit{
+        width: 350px;
+    }
+    .txtsDls{
+        width: 100%;
+    }
+}
+@media (max-width: 420px){
+    .container_dls{
+        width: 80%;
+        height: 35%;
+    }
+    .inputlit{
+        width: 270px;
+    }
+    .txtsDls{
+        width: 100%;
+    }
+}

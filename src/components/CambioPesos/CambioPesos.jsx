@@ -70,20 +70,20 @@ const CambioPesos = () => {
           </div>
           <div className='contenedorTxts'>
               <div className='txts'>
-                  <h3>Sin Impuestos</h3>
+                  <h3 className='h3txts'>Sin Impuestos</h3>
                   <h3>${pesificarOficial}</h3>
               </div>
               <div className='txts'>
-                  <h3>+ Impuesto PAÍS (30%)</h3>
+                  <h3 className='h3txts'>+ Impuesto PAÍS (30%)</h3>
                   <h3>${pesificarPais}</h3>
               </div>
               <div className='txts'>
-                  <h3>+ Impuesto ganancias (%45)</h3>
+                  <h3 className='h3txts'>+ Impuesto ganancias (%45)</h3>
                   <h3>${pesificarGanancia}</h3>
               </div>
               {pesosCliente >= 300 && (
                   <div className='txts'>
-                      <h3>+ Bienes Personales (%25)</h3>
+                      <h3 className='h3txts'>+ Bienes Personales (%25)</h3>
                       <h3>${pesificarBienes}</h3>
                   </div>
               )}
